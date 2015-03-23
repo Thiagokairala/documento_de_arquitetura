@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  22 MAR 2015 19:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  22 MAR 2015 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,7 +1181,7 @@ LaTeX Info: Redefining \selectfont on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-
 English.dict
 Dictionary: glossaries-dictionary, Language: English 
-) (./capa.tex <./fga.jpg, id=39, 1604.99625pt x 99.37125pt>
+) (./capa.tex <./fga.jpg, id=79, 1604.99625pt x 99.37125pt>
 File: ./fga.jpg Graphic file (type jpg)
 <use ./fga.jpg>
 Package pdftex.def Info: ./fga.jpg used on input line 9.
@@ -1232,7 +1232,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \vbox (badness 10000) detected at line 32
+Underfull \vbox (badness 10000) detected at line 29
  []
 
 )) [1] (./main.toc)
@@ -1241,29 +1241,31 @@ Underfull \vbox (badness 10000) detected at line 32
 
 [2
 
-] (./conteudo/conteudo.tex (./conteudo/introducao.tex) (./conteudo/comportament
-o.tex) (./conteudo/usabilidade.tex
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 7.
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
-) (./conteudo/confiabilidade.texpdfTeX warning (ext4): destination with the sam
-e identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 P
-     ara o projeto chamada parlamentar serão utilizadas as métricas de tem...
-[1]) (./conteudo/desempenho.tex) (./conteudo/questoes_dimensionamento.tex)) (./
-main.bblpdfTeX warning (ext4): destination with the same identifier (name{page.
-2}) has been already used, duplicate ignored
+] (./conteudo/conteudo.tex (./conteudo/introducao.tex (/usr/share/texlive/texmf
+-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)) (./conteudo/representacao_da_arquitetura.tex) (./conteudo/metas_e_restricoes
+_de_arquitetura.tex) (./conteudo/visao_de_casos_de_uso.tex) (./conteudo/visao_l
+ogica.tex) (./conteudo/visao_de_processos.tex) (./conteudo/visao_de_implantanca
+o.tex) (./conteudo/visao_de_implementacao.tex) (./conteudo/visao_de_dados.tex) 
+(./conteudo/tamanho_e_desempenho.tex) (./conteudo/qualidade.tex)) (./main.bblpd
+fTeX warning (ext4): destination with the same identifier (name{page.1}) has be
+en already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \begin{thebibliography}{}
-                              [2]) 
+                              [1]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
+
+) 
 AED: lastpage setting LastPage
-[3
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91 \end{document}
+                    [2
 
 ]
 
@@ -1276,30 +1278,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 20BB691E5BD2604480E3DBDD3E9C7429;434.
+(rerunfilecheck)             Checksum: 7956657C88CD8C0D9D99E9B63F5D0A93;1185.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 27770 strings out of 493304
- 499038 string characters out of 6139871
- 799777 words of memory out of 5000000
- 30535 multiletter control sequences out of 15000+600000
- 66271 words of font info for 49 fonts, out of 8000000 for 9000
+ 28038 strings out of 493304
+ 502671 string characters out of 6139871
+ 795777 words of memory out of 5000000
+ 30786 multiletter control sequences out of 15000+600000
+ 62008 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,9n,97p,1722b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/s
-hare/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (7 pages, 288769 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
+public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (6 pages, 264860 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

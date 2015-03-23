@@ -2,15 +2,20 @@
 \select@language {english}
 \select@language {brazil}
 \contentsline {section}{\numberline {1 }Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.0.1}
-\contentsline {subsection}{\numberline {1 .1}Escopo}{1}{subsection.0.1.1}
-\contentsline {subsection}{\numberline {1 .2}Vis\IeC {\~a}o Geral}{1}{subsection.0.1.2}
-\contentsline {subsubsection}{Comportamento}{1}{section*.3}
-\contentsline {subsubsection}{Usabilidade}{1}{section*.4}
-\contentsline {subsubsection}{Confiabilidade}{1}{section*.5}
-\contentsline {subsubsection}{Desempenho}{1}{section*.6}
-\contentsline {subsubsection}{Quest\IeC {\~o}es de dimensionamento}{1}{section*.7}
-\contentsline {section}{\numberline {2 }Comportamento}{1}{section.0.2}
-\contentsline {section}{\numberline {3 }Usabilidade}{1}{section.0.3}
-\contentsline {section}{\numberline {4 }Confiabilidade}{2}{section.0.4}
-\contentsline {section}{\numberline {5 }Desempenho}{2}{section.0.5}
-\contentsline {section}{\numberline {6 }Quest\IeC {\~o}es de dimensionamento}{2}{section.0.6}
+\contentsline {subsection}{\numberline {1 .1}Finalidade}{1}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {1 .2}Escopo}{1}{subsection.0.1.2}
+\contentsline {section}{\numberline {2 }Representa\IeC {\c c}\IeC {\~a}o da Arquitetura}{1}{section.0.2}
+\contentsline {section}{\numberline {3 }Metas e Restri\IeC {\c c}\IeC {\~o}es de Arquitetura}{1}{section.0.3}
+\contentsline {section}{\numberline {4 }Vis\IeC {\~a}o de Casos de Uso}{1}{section.0.4}
+\contentsline {subsection}{\numberline {4 .1}Realiza\IeC {\c c}\IeC {\~o}es de Casos de Uso}{1}{subsection.0.4.1}
+\contentsline {section}{\numberline {5 }Vis\IeC {\~a}o L\IeC {\'o}gica}{1}{section.0.5}
+\contentsline {subsection}{\numberline {5 .1}Vis\IeC {\~a}o Geral}{1}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5 .2}Pacotes de Design Significativos do Ponto de Vista da Arquitetura}{1}{subsection.0.5.2}
+\contentsline {section}{\numberline {6 }Vis\IeC {\~a}o de Processos}{1}{section.0.6}
+\contentsline {section}{\numberline {7 }Vis\IeC {\~a}o de Implanta\IeC {\c c}\IeC {\~a}o}{1}{section.0.7}
+\contentsline {section}{\numberline {8 }Vis\IeC {\~a}o de Implementacao}{1}{section.0.8}
+\contentsline {subsection}{\numberline {8 .1}Vis\IeC {\~a}o Geral}{1}{subsection.0.8.1}
+\contentsline {subsection}{\numberline {8 .2}Camadas}{1}{subsection.0.8.2}
+\contentsline {section}{\numberline {9 }Vis\IeC {\~a}o de Dados (opcional)}{1}{section.0.9}
+\contentsline {section}{\numberline {10 }Tamanho e Desempenho}{1}{section.0.10}
+\contentsline {section}{\numberline {11 }Qualidade}{1}{section.0.11}
