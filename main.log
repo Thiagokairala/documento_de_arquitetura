@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  23 MAR 2015 22:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  23 MAR 2015 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,7 +1232,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \vbox (badness 10000) detected at line 33
+Underfull \vbox (badness 10000) detected at line 34
  []
 
 )) [1] (./main.toc)
@@ -1242,13 +1242,13 @@ Underfull \vbox (badness 10000) detected at line 33
 [2
 
 ] (./conteudo/conteudo.tex (./conteudo/introducao.tex) (./conteudo/representaca
-o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=127, 1265.72874pt
- x 542.025pt>
+o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=127, 1455.18657pt
+ x 632.3625pt>
 File: arquitetura/arquitetura_sprint1.png Graphic file (type png)
 <use arquitetura/arquitetura_sprint1.png>
 Package pdftex.def Info: arquitetura/arquitetura_sprint1.png used on input line
  5.
-(pdftex.def)             Requested size: 386.95897pt x 165.70197pt.
+(pdftex.def)             Requested size: 435.32422pt x 189.16986pt.
 ) (./conteudo/metas_e_restricoes_de_arquitetura.tex) (./conteudo/visao_de_casos
 _de_uso.tex) (./conteudo/visao_logica.tex) (./conteudo/visao_de_processos.tex) 
 (./conteudo/visao_de_implantancao.tex) (./conteudo/visao_de_implementacao.tex) 
@@ -1289,7 +1289,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
 Here is how much of TeX's memory you used:
  27820 strings out of 493304
  500381 string characters out of 6139871
- 796909 words of memory out of 5000000
+ 798909 words of memory out of 5000000
  30563 multiletter control sequences out of 15000+600000
  72264 words of font info for 51 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1302,10 +1302,10 @@ exmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 r17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
 >
-Output written on main.pdf (7 pages, 378988 bytes).
+Output written on main.pdf (7 pages, 449703 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
+ 188 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
