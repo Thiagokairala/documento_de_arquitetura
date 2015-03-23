@@ -1,0 +1,16 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.50 }
+
+\bibitem{eMAG}
+\abntrefinfo{Brasil}{BRASIL}{}
+{BRASIL, P. de~Governo Eletrônico~do. \emph{Modelo de Acessibilidade em
+  Governo Eletrônico}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG}$>$.
+  Acesso em: 22/03/2015.}
+
+\end{thebibliography}

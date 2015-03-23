@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: abnt-num.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bibliography.bib
+Warning--entry type for "eMAG" isn't style-file defined
+--line 1 of file bibliography.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliografico abnt-num.bst versao 1.50           |
+| Implementa a NBR6023, NBR10520 e NBR10523               |
+| Em caso de duvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 1 entry,
+            6522 wiz_defined-function locations,
+            1168 strings with 9389 characters,
+and the built_in function-call counts, 1166 in all, are:
+= -- 214
+> -- 12
+< -- 0
++ -- 47
+- -- 4
+* -- 53
+:= -- 218
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 6
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 26
+empty$ -- 52
+format.name$ -- 20
+if$ -- 264
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 15
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 80
+stack$ -- 1
+substring$ -- 51
+swap$ -- 10
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 0
+write$ -- 19
+(There was 1 warning)
