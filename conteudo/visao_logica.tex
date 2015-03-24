@@ -1,7 +1,37 @@
-%A visão lógica consiste em descrever as camadas que compõem a aplicação e definir suas responsabilidades. O aplicativo “Really Personal Computer” é executado em um navegador web, onde o usuário irá interagir, e a partir deste se inicia com o acesso às camadas do MVC e do BD. O navegador responde às requisições do usuário, coletando, manipulando e exibindo dados, que são enviados/recebidos por um BD, alimentado com consultas realizadas por outros usuários, visando um ganho de desempenho e resposta da aplicação.
+O sistema Chamada Parlamentar 2 será executado via web em um browser, que por sua vez fará requisições ao sistema no servidor. Nesta sessão será explicada cada uma das camadas que estão sendo executadas no servidor de cima para baixo.
 
-\subsection{Visão Geral}
-%[Esta subseção descreve toda a decomposição do modelo de design em termos de camadas e de hierarquia de pacotes.]
+\subsection{\textit{view}}
+	
+	Esta é a primeira das camadas encontradas após ser feita uma requisição para o sistema. Consiste apenas de uma conexão simples entre as páginas do \textit{browser} e as classes java por trás do sistema.
 
-\subsection{Pacotes de Design Significativos do Ponto de Vista da Arquitetura}
-%[Para cada pacote significativo, inclua uma subseção com o respectivo nome, uma breve descrição e um diagrama com todos os pacotes e classes significativos nele contidos. Para cada classe significativa no pacote, inclua o respectivo nome, uma breve descrição e,opcionalmente, uma descrição de algumas de suas responsabilidades, operações e atributos mais importantes.]
+	Geralmente estas classes serão simples e extendidas da classe HTTPServlet do java que é o framework utilizado durante este projeto. Estas classes serão responsáveis por chamar as \textit{controllers} para que estas realizem as ações.
+
+\subsection{\textit{controller}}
+
+	As classes do pacote \textit{controller} são responsáveis por toda a lógica do sistema. Serão sempre instanciadas por uma view, e apenas poderão acessar as classes no pacote \textit{dataParser} para ter uma interface simples caso seja necessário alterar o método de entrada.
+
+\subsection{\textit{model}}
+
+	A classes presentes no pacote \textit{model} são as classes mais simples do sistema porem de grande importância já que elas são responsáveis por ter as entidades representadas no sistema.
+
+	Estas classes poderão ser instanciadas pelas classes nos pacotes \textit{view}, \textit{controller} e \textit{dataParser}.
+
+	Por serem as classes com maior conexão com o resto do sistema, as \textit{models} são um ponto de risco para a arquitetura por isso será gasto um tempo considerável desenvolvendo cada um dos diagramas de cada uma delas para garantir que não será necessário alterar muita coisa caso haja uma mudança.
+
+\subsection{\textit{dataParser}}
+
+	As classes existentes no pacote \textit{dataParser} são responsáveis por prover às \textit{controllers} as informações em um formato esperado. Estas informações podem ser encontradas ou no banco de dados ou no \textit{web service} da camara dos deputados estando cada um destes em um formato diferente.
+
+	Sempre que for necessária uma informação será primeiro requisitado ao \textit{web service}, apenas se não for possível a utilização do mesmo será usado o banco e dados.
+
+	Os dados do banco de dados são acessados pelas classes existentes no pacote \textit{dao}, enquanto os dados vindos do \textit{web service} são trazidos pelas classes existentes no pacote \textit{webServiceConnector}.
+
+\subsection{\textit{dao}}
+
+	As classes implementadas na camada \textit{dao} são responsáveis pelo \textit{C.R.U.D.} de todas as informações no banco de dados, garantindo assim que se o banco de dados sofrer alguma alteração não será necessário mexer no código de nenhuma outra classe, apenas no pacote \textit{dao}.
+
+\subsection{\textit{webServiceConnector}} 
+
+	Este pacote contem as classes que irão fazer a conexão com o web service para buscar as informações solicitadas pelas classes do pacote \textit{dataParser}.
+
+	Este é o pacote de maior risco arquitetural do projeto pois o \textit{web service} não depende da equipe e caso haja uma alteração será necessária uma mudança drástica neste pacote e por isso foi isolado totalmente do resto do sistem.

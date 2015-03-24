@@ -1,1 +1,4 @@
 %[Esta seção descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados (agrupamentos de processos leves). Organize a seção em grupos de processos que se comunicam ou interagem. Descreva os modos principais de comunicação entre processos, como transmissão de mensagens e interrupções.]
+Para deixar o processo de cada um dos pacotes o mais independente possível sempre que houver a necessidade de se utilizar dados de uma classe em outra estes dados serão passados por parametros de métodos, evitando assim acoplamento desnecessário entre as classes.
+
+Para as classes do pacote \textit{webServiceConnector} haverá uma diferença pois as informações oriundas da Camara dos deputados é recebida em \textit{xml}. A classe deverá passar as informações para objetos java e então retornar os objetos prontos para serem utilizados pelas \textit{controllers}.
