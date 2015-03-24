@@ -6,8 +6,9 @@
 \contentsline {subsection}{\numberline {1 .2}Escopo}{1}{subsection.0.1.2}
 \contentsline {section}{\numberline {2 }Representa\IeC {\c c}\IeC {\~a}o da Arquitetura}{1}{section.0.2}
 \contentsline {section}{\numberline {3 }Metas e Restri\IeC {\c c}\IeC {\~o}es de Arquitetura}{1}{section.0.3}
-\contentsline {section}{\numberline {4 }Vis\IeC {\~a}o de Casos de Uso}{2}{section.0.4}
-\contentsline {subsection}{\numberline {4 .1}Realiza\IeC {\c c}\IeC {\~o}es de Casos de Uso}{2}{subsection.0.4.1}
+\contentsline {section}{\numberline {4 }Vis\IeC {\~a}o de Casos de Uso}{1}{section.0.4}
+\contentsline {subsection}{\numberline {4 .1}Realiza\IeC {\c c}\IeC {\~o}es de Casos de Uso}{1}{subsection.0.4.1}
+\contentsline {subsubsection}{Pesquisar um parlamentar}{1}{section*.4}
 \contentsline {section}{\numberline {5 }Vis\IeC {\~a}o L\IeC {\'o}gica}{2}{section.0.5}
 \contentsline {subsection}{\numberline {5 .1}Vis\IeC {\~a}o Geral}{2}{subsection.0.5.1}
 \contentsline {subsection}{\numberline {5 .2}Pacotes de Design Significativos do Ponto de Vista da Arquitetura}{2}{subsection.0.5.2}
