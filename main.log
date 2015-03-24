@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  23 MAR 2015 23:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  24 MAR 2015 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,7 +1179,7 @@ LaTeX Info: Redefining \selectfont on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-
 English.dict
 Dictionary: glossaries-dictionary, Language: English 
-) (./capa.tex <./fga.jpg, id=95, 1604.99625pt x 99.37125pt>
+) (./capa.tex <./fga.jpg, id=79, 1604.99625pt x 99.37125pt>
 File: ./fga.jpg Graphic file (type jpg)
 <use ./fga.jpg>
 Package pdftex.def Info: ./fga.jpg used on input line 9.
@@ -1232,7 +1232,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \vbox (badness 10000) detected at line 37
+Underfull \vbox (badness 10000) detected at line 38
  []
 
 )) [1] (./main.toc)
@@ -1242,7 +1242,7 @@ Underfull \vbox (badness 10000) detected at line 37
 [2
 
 ] (./conteudo/conteudo.tex (./conteudo/introducao.tex) (./conteudo/representaca
-o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=148, 1455.18657pt
+o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=128, 1455.18657pt
  x 632.3625pt>
 File: arquitetura/arquitetura_sprint1.png Graphic file (type png)
 <use arquitetura/arquitetura_sprint1.png>
@@ -1262,7 +1262,6 @@ l.11
                    \relax 
 l.26 \section
              {Visão de Processos} % (fold) [2] (./conteudo/visao_de_processos.
-tex) (./conteudo/visao_de_implantancao.tex) (./conteudo/visao_de_implementacao.
 tex) (./conteudo/visao_de_dados.tex) (./conteudo/tamanho_e_desempenho.tex) (./c
 onteudo/qualidade.tex)) (./main.bbl [3]
 
@@ -1283,14 +1282,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0EF04C7A0F6E9D382F8D17DBCBAA761B;1369.
+(rerunfilecheck)             Checksum: 18E6E407F4999CC0789AC751F067F779;1099.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 27838 strings out of 493304
- 500604 string characters out of 6139871
- 802909 words of memory out of 5000000
- 30569 multiletter control sequences out of 15000+600000
+ 27820 strings out of 493304
+ 500181 string characters out of 6139871
+ 803907 words of memory out of 5000000
+ 30561 multiletter control sequences out of 15000+600000
  76535 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,9n,97p,1722b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1302,10 +1301,10 @@ hare/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public
 lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (8 pages, 472956 bytes).
+Output written on main.pdf (8 pages, 472953 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
