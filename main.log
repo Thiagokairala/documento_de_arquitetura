@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  4 APR 2015 16:06
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.10)  1 APR 2015 13:12
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,30 +1195,6 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 9--12
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 37.
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 37.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 37.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 37.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 37.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 37.
 [1
 
 \openout4 = `main.ist'.
@@ -1222,6 +1202,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./fga.jpg>] [2]) (./conteu
 do/historico.tex (./conteudo/commit_log.tex
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1232,7 +1228,11 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 Underfull \vbox (badness 10000) detected at line 41
+=======
+Underfull \vbox (badness 10000) detected at line 42
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
  []
 
 )) [1] (./main.toc)
@@ -1242,22 +1242,37 @@ Underfull \vbox (badness 10000) detected at line 41
 [2
 
 ] (./conteudo/conteudo.tex (./conteudo/introducao.tex) (./conteudo/representaca
+<<<<<<< HEAD
 o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=128, 1594.45688pt
+=======
+o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=127, 1455.18657pt
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
  x 632.3625pt>
 File: arquitetura/arquitetura_sprint1.png Graphic file (type png)
 <use arquitetura/arquitetura_sprint1.png>
 Package pdftex.def Info: arquitetura/arquitetura_sprint1.png used on input line
  5.
+<<<<<<< HEAD
 (pdftex.def)             Requested size: 435.32422pt x 172.65067pt.
+=======
+(pdftex.def)             Requested size: 435.32422pt x 189.16986pt.
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
 ) (./conteudo/metas_e_restricoes_de_arquitetura.tex) (./conteudo/visao_de_casos
 _de_uso.texpdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.12 <
       <<<<<< HEAD [1 <./arquitetura/arquitetura_sprint1.png>]) (./conteudo/visa
 o_logica.texpdfTeX warning (ext4): destination with the same identifier (name{p
 age.2}) has been already used, duplicate ignored
+=======
+l.11 
+      [1 <./arquitetura/arquitetura_sprint1.png>]) (./conteudo/visao_logica.tex
+)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
 <to be read again> 
                    \relax 
 l.37 	E
@@ -1286,11 +1301,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  27821 strings out of 493304
  500187 string characters out of 6139871
  807907 words of memory out of 5000000
  30561 multiletter control sequences out of 15000+600000
  76535 words of font info for 52 fonts, out of 8000000 for 9000
+=======
+ 27797 strings out of 493304
+ 499932 string characters out of 6139871
+ 809891 words of memory out of 5000000
+ 30547 multiletter control sequences out of 15000+600000
+ 59947 words of font info for 41 fonts, out of 8000000 for 9000
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
  957 hyphenation exceptions out of 8191
  57i,9n,97p,1722b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1299,6 +1322,7 @@ hare/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
+<<<<<<< HEAD
 onts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
 Output written on main.pdf (8 pages, 482164 bytes).
@@ -1306,5 +1330,14 @@ PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  181 compressed objects within 2 object streams
  37 named destinations out of 1000 (max. 500000)
+=======
+onts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.
+pfb>
+Output written on main.pdf (8 pages, 451929 bytes).
+PDF statistics:
+ 199 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+>>>>>>> de01794... Corrigindo erros e retirando conflitos
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

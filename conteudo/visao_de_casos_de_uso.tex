@@ -1,4 +1,4 @@
-A parte de maior risco arquitetural é a parte de acesso ao \textit{web service} então esta sessão descreverá como será a interação da camada controller com este módulod o sistema
+A parte de maior risco arquitetural é a parte de acesso ao \textit{web service} então esta sessão descreverá como será a interação da camada controller com este módulo do sistema
 
 \subsection{Realizações de Casos de Uso}
 	
@@ -9,11 +9,7 @@ A parte de maior risco arquitetural é a parte de acesso ao \textit{web service}
 
 			\item A \textit{controller} irá pedir os dados para a camada de \textit{dataParser} para que consiga os dados e entregue-os em um formato esperado;
 
-<<<<<<< HEAD
-			\item A classe parser irá tentar buscar os dados do \textit{web service} pelas classes presentes no pacote \textit{webServiceConnector}, caso funcione irá retornar os dados para a controller do jeito que a mesma espera;
-=======
-			\item A classe parser irá tentar buscar os dados do \textit{web service}, caso funcione irá retornar os dados para a controller do jeito que a mesma espera;
->>>>>>> f7c0dd0... Finalizada visao de casos de uso
+			\item A classe parser irá tentar buscar os dados do \textit{web service} pelas classes presentes no pacote \textit{webServiceConnector}, caso funcione irá retornar os dados para a controller no formato em que a mesma já espera;
 
 			\item Se por algum motivo a classe parser tiver alguma dificuldade em recuperar estas informações, será feita então uma requisição a camada \textit{dao} pelas informações no banco de dados;
 
