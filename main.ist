@@ -1,9 +1,11 @@
 % makeindex style file created by the glossaries package
-<<<<<<< HEAD
 % for document 'main' on 2015-4-4
+<<<<<<< HEAD
 =======
 % for document 'main' on 2015-4-1
 >>>>>>> de01794... Corrigindo erros e retirando conflitos
+=======
+>>>>>>> e978f5b... Descrevendo arquitetura utilizada
 actual '?'
 encap '|'
 level '!'
