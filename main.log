@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  4 APR 2015 16:06
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.10)  1 APR 2015 13:12
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.10)  4 APR 2015 18:41
->>>>>>> e978f5b... Descrevendo arquitetura utilizada
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.10)  4 APR 2015 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,15 +1224,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<<<<<<< HEAD
-<<<<<<< HEAD
-Underfull \vbox (badness 10000) detected at line 41
-=======
-Underfull \vbox (badness 10000) detected at line 42
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-=======
-Underfull \vbox (badness 10000) detected at line 44
->>>>>>> e978f5b... Descrevendo arquitetura utilizada
+Underfull \vbox (badness 10000) detected at line 45
  []
 
 )) [1] (./main.toc)
@@ -1250,43 +1234,12 @@ Underfull \vbox (badness 10000) detected at line 44
 [2
 
 ] (./conteudo/conteudo.tex (./conteudo/introducao.tex) (./conteudo/representaca
-<<<<<<< HEAD
-<<<<<<< HEAD
-o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=128, 1594.45688pt
-=======
-o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=127, 1455.18657pt
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-=======
 o_da_arquitetura.tex <arquitetura/arquitetura_sprint1.png, id=127, 1594.45688pt
->>>>>>> e978f5b... Descrevendo arquitetura utilizada
  x 632.3625pt>
 File: arquitetura/arquitetura_sprint1.png Graphic file (type png)
 <use arquitetura/arquitetura_sprint1.png>
 Package pdftex.def Info: arquitetura/arquitetura_sprint1.png used on input line
  5.
-<<<<<<< HEAD
-<<<<<<< HEAD
-(pdftex.def)             Requested size: 435.32422pt x 172.65067pt.
-=======
-(pdftex.def)             Requested size: 435.32422pt x 189.16986pt.
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-) (./conteudo/metas_e_restricoes_de_arquitetura.tex) (./conteudo/visao_de_casos
-_de_uso.texpdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-<<<<<<< HEAD
-l.12 <
-      <<<<<< HEAD [1 <./arquitetura/arquitetura_sprint1.png>]) (./conteudo/visa
-o_logica.texpdfTeX warning (ext4): destination with the same identifier (name{p
-age.2}) has been already used, duplicate ignored
-=======
-l.11 
-      [1 <./arquitetura/arquitetura_sprint1.png>]) (./conteudo/visao_logica.tex
-)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-=======
 (pdftex.def)             Requested size: 483.69687pt x 191.83301pt.
 ) (./conteudo/metas_e_restricoes_de_arquitetura.texpdfTeX warning (ext4): desti
 nation with the same identifier (name{page.1}) has been already used, duplicate
@@ -1297,19 +1250,18 @@ l.3
      [1 <./arquitetura/arquitetura_sprint1.png>]) (./conteudo/visao_de_casos_de
 _uso.tex) (./conteudo/visao_logica.texpdfTeX warning (ext4): destination with t
 he same identifier (name{page.2}) has been already used, duplicate ignored
->>>>>>> e978f5b... Descrevendo arquitetura utilizada
 <to be read again> 
                    \relax 
-l.24 
-      [2]) (./conteudo/visao_de_processos.tex) (./conteudo/visao_de_dados.tex) 
-(./conteudo/tamanho_e_desempenho.tex) (./conteudo/qualidade.tex)) (./main.bbl [
-3]
+l.8 
+     [2]) (./conteudo/visao_de_processos.tex) (./conteudo/visao_de_dados.tex) (
+./conteudo/tamanho_e_desempenho.tex) [3] (./conteudo/qualidade.tex)) (./main.bb
+l [4]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 ) 
 AED: lastpage setting LastPage
-[4
+[5
 
 ]
 
@@ -1326,15 +1278,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 27797 strings out of 493304
- 499932 string characters out of 6139871
- 811891 words of memory out of 5000000
+ 27804 strings out of 493304
+ 499979 string characters out of 6139871
+ 813891 words of memory out of 5000000
  30547 multiletter control sequences out of 15000+600000
  59947 words of font info for 41 fonts, out of 8000000 for 9000
-<<<<<<< HEAD
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-=======
->>>>>>> e978f5b... Descrevendo arquitetura utilizada
  957 hyphenation exceptions out of 8191
  57i,9n,97p,1722b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1345,14 +1293,10 @@ hare/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public
 lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.
 pfb>
-Output written on main.pdf (8 pages, 462498 bytes).
+Output written on main.pdf (9 pages, 463719 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
-<<<<<<< HEAD
->>>>>>> de01794... Corrigindo erros e retirando conflitos
-=======
->>>>>>> e978f5b... Descrevendo arquitetura utilizada
+ 213 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

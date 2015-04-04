@@ -10,28 +10,30 @@ O sistema Chamada Parlamentar 2 será executado via web em um browser, que por s
 
 	As classes do pacote \textit{controller} são responsáveis por toda a lógica do sistema. Serão sempre instanciadas por uma view, e apenas poderão acessar as classes no pacote \textit{dataParser} para ter uma interface simples caso seja necessário alterar o método de entrada.
 
+	Estas classes farão toda a manipulação dos dados, realizando a conexão entre a \textit{model}, com todos os dados a serem trabalhados e a \textit{view} para apresentar os dados obtidos ao usuário.
+
 \subsection{\textit{model}}
 
-	A classes presentes no pacote \textit{model} são as classes mais simples do sistema porem de grande importância já que elas são responsáveis por ter as entidades representadas no sistema.
+	A classes presentes no pacote \textit{model} são as classes mais simples do sistema, porem de grande importância já que elas são responsáveis por ter as entidades representadas no sistema.
 
 	Estas classes poderão ser instanciadas pelas classes nos pacotes \textit{view}, \textit{controller} e \textit{dataParser}.
 
-	Por serem as classes com maior conexão com o resto do sistema, as \textit{models} são um ponto de risco para a arquitetura por isso será gasto um tempo considerável desenvolvendo cada um dos diagramas de cada uma delas para garantir que não será necessário alterar muita coisa caso haja uma mudança.
+	Por serem as classes com maior conexão com o resto do sistema, as \textit{models} são um ponto de risco para a arquitetura, dessa forma, o desenvolvimento das mesmas passará por diversas análises e modelagens para garantir que não haverá a necessidade de alterações futuras.
 
 \subsection{\textit{dataParser}}
 
-	As classes existentes no pacote \textit{dataParser} são responsáveis por prover às \textit{controllers} as informações em um formato esperado. Estas informações podem ser encontradas ou no banco de dados ou no \textit{web service} da camara dos deputados estando cada um destes em um formato diferente.
+	As classes existentes no pacote \textit{dataParser} são responsáveis por prover às \textit{controllers} as informações em um formato esperado. Estas informações podem ser encontradas ou no banco de dados ou no \textit{web service} da camara dos deputados, estando cada um destes em um formato diferente.
 
-	Sempre que for necessária uma informação será primeiro requisitado ao \textit{web service}, apenas se não for possível a utilização do mesmo será usado o banco e dados.
+	Sempre que for necessária uma informação, será primeiro requisitado ao \textit{web service}, apenas se não for possível a utilização do mesmo, o banco de dados será utilizado, garantindo assim, a confiabilidade do sistema.
 
 	Os dados do banco de dados são acessados pelas classes existentes no pacote \textit{dao}, enquanto os dados vindos do \textit{web service} são trazidos pelas classes existentes no pacote \textit{webServiceConnector}.
 
 \subsection{\textit{dao}}
 
-	As classes implementadas na camada \textit{dao} são responsáveis pelo \textit{C.R.U.D.} de todas as informações no banco de dados, garantindo assim que se o banco de dados sofrer alguma alteração não será necessário mexer no código de nenhuma outra classe, apenas no pacote \textit{dao}.
+	As classes implementadas na camada \textit{dao} são responsáveis pelo \textit{C.R.U.D.} de todas as informações no banco de dados, garantindo assim que se o banco de dados sofrer alguma alteração não será necessário mexer no código de nenhuma outra classe, apenas no pacote \textit{dao}, facilitando a manutenibilidade do sistema.
 
 \subsection{\textit{webServiceConnector}} 
 
-	Este pacote contem as classes que irão fazer a conexão com o web service para buscar as informações solicitadas pelas classes do pacote \textit{dataParser}.
+	Este pacote contem as classes que irão fazer a conexão com o \textit{web service} para buscar as informações solicitadas pelas classes do pacote \textit{dataParser}.
 
 	Este é o pacote de maior risco arquitetural do projeto pois o \textit{web service} não depende da equipe e caso haja uma alteração será necessária uma mudança drástica neste pacote e por isso foi isolado totalmente do resto do sistem.
