@@ -1,2 +1,4 @@
 %[Uma descrição das principais características de dimensionamento do software que têm um impacto na arquitetura, bem como as restrições do desempenho desejado.]
 Para o sistema funcionar perfeitamente é necessário que as consultas no \textit{web service} sejam rápidas, assim é necessário que as informações trazidas sejam limitadas ao período da eleição do deputado até o dia atual, totalizando assim no máximo 4 anos de dados de sessões.
+
+O grande gargalo do sistema será no Caso de Uso Gerar Ranking, pois muitos cálculos são realizados para que a assiduidade de todos os Parlamentares seja obtida. Para minimizar o esforço do sistema neste Caso de Uso, itens de suporte serão armazenados no Banco de Dados durante toda atualização para facilitar a obtenção das assiduidades dos mesmos. Dessa forma, o sistema não fará todos os cálculos para a geração do Ranking em tempo de execução.
