@@ -4,17 +4,18 @@
 \BOOKMARK [1][]{section.0.2}{Representa\347\343o da Arquitetura}{}% 4
 \BOOKMARK [1][]{section.0.3}{Metas e Restri\347\365es de Arquitetura}{}% 5
 \BOOKMARK [1][]{section.0.4}{Vis\343o de Casos de Uso}{}% 6
-\BOOKMARK [2][]{subsection.0.4.1}{Realiza\347\365es de Casos de Uso}{section.0.4}% 7
-\BOOKMARK [1][]{section.0.5}{Vis\343o L\363gica}{}% 8
-\BOOKMARK [2][]{subsection.0.5.1}{view}{section.0.5}% 9
-\BOOKMARK [2][]{subsection.0.5.2}{controller}{section.0.5}% 10
-\BOOKMARK [2][]{subsection.0.5.3}{model}{section.0.5}% 11
-\BOOKMARK [2][]{subsection.0.5.4}{dataParser}{section.0.5}% 12
-\BOOKMARK [2][]{subsection.0.5.5}{dao}{section.0.5}% 13
-\BOOKMARK [2][]{subsection.0.5.6}{webServiceConnector}{section.0.5}% 14
-\BOOKMARK [1][]{section.0.6}{Vis\343o de Processos}{}% 15
-\BOOKMARK [1][]{section.0.7}{Vis\343o de Dados}{}% 16
-\BOOKMARK [2][]{subsection.0.7.1}{Deputados:}{section.0.7}% 17
-\BOOKMARK [2][]{subsection.0.7.2}{Sess\365es:}{section.0.7}% 18
-\BOOKMARK [1][]{section.0.8}{Tamanho e Desempenho}{}% 19
-\BOOKMARK [1][]{section.0.9}{Qualidade}{}% 20
+\BOOKMARK [2][]{subsection.0.4.1}{Descri\347\343o dos Casos de uso:}{section.0.4}% 7
+\BOOKMARK [2][]{subsection.0.4.2}{Realiza\347\365es de Casos de Uso}{section.0.4}% 8
+\BOOKMARK [1][]{section.0.5}{Vis\343o L\363gica}{}% 9
+\BOOKMARK [2][]{subsection.0.5.1}{view}{section.0.5}% 10
+\BOOKMARK [2][]{subsection.0.5.2}{controller}{section.0.5}% 11
+\BOOKMARK [2][]{subsection.0.5.3}{model}{section.0.5}% 12
+\BOOKMARK [2][]{subsection.0.5.4}{dataParser}{section.0.5}% 13
+\BOOKMARK [2][]{subsection.0.5.5}{dao}{section.0.5}% 14
+\BOOKMARK [2][]{subsection.0.5.6}{webServiceConnector}{section.0.5}% 15
+\BOOKMARK [1][]{section.0.6}{Vis\343o de Processos}{}% 16
+\BOOKMARK [1][]{section.0.7}{Vis\343o de Dados}{}% 17
+\BOOKMARK [2][]{subsection.0.7.1}{Deputados:}{section.0.7}% 18
+\BOOKMARK [2][]{subsection.0.7.2}{Sess\365es:}{section.0.7}% 19
+\BOOKMARK [1][]{section.0.8}{Tamanho e Desempenho}{}% 20
+\BOOKMARK [1][]{section.0.9}{Qualidade}{}% 21
